@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Hasan's Porfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Shifting everything to the right */
+
+			html {
+				margin-left:
+			}
+
+			#wrapper {
+				margin-left: 300px; /* Adjust this value to shift content further right */
+			}
+
+			/* Media query for smaller screen sizes */
+			@media screen and (max-width: 768px) {
+				#wrapper {
+					margin-left: 200px; /* Adjust the margin for smaller screens */
+				}
+			}
+
+			#resume-button-container {
+				position: fixed;
+				top: 20px;
+				right: 20px;
+				z-index: 1000;
+			}
+
+			.resume-button {
+				background-color: hsl(270, 100%, 50%);
+				color: white;
+				text-decoration: none;
+				padding: 10px 20px;
+				border-radius: 5px;
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+				transition: background-color 0.3s ease;
+			}
+
+			.resume-button:hover {
+				background-color: #0056b3;
+			}
+
+			/* Adjust sidebar width */
+			#sidebar {
+				width: 200px; /* Set the desired width */
+			}
+
+			/* Media query for smaller screen sizes */
+			@media screen and (max-width: 768px) {
+				#sidebar {
+					width: 150px; /* Smaller width for mobile or tablet */
+				}
+			}
+
+			.image-container {
+				display: flex; /* Align items horizontally */
+				gap: 20px; /* Space between images */
+				margin-top: 20px; /* Adds space above the images */
+				justify-content: center; /* Centers the images horizontally */
+				flex-wrap: wrap; /* Allows images to wrap to the next row */
+			}
+
+			.image-item img {
+				width: 300px; /* Adjust the width as needed */
+				height: auto; /* Maintain aspect ratio */
+				border-radius: 5px; /* Optional: Adds rounded corners */
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Download Resume Button -->
+		<div id="resume-button-container">
+			<a href="Update_Resume.pdf" download="Resume_Hasan_Al_Zafir.pdf" class="button resume-button">Download Resume</a>
+		</div>
+
+		<!-- Sidebar -->
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a href="#intro">Welcome</a></li>
+						<li><a href="#one">Projects</a></li>
+						<li><a href="#two">Professional Experience</a></li>
+						<li><a href="#three">Hobbies</a></li>
+						<li><a href="#four">Get in touch</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Intro -->
+			<section id="intro" class="wrapper style1 fullscreen fade-up" style="display: flex; align-items: center; gap: 20px; justify-content: center;">
+				<div style="flex: 1; text-align: center;">
+					<img src="images/Me01.png" alt="Hasan Al Zafir" style="max-width: 300px; border-radius: 50%; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+				</div>
+				<div class="inner" style="flex: 2;">
+					<h1>Hasan's Portfolio</h1>
+					<p>I am Hasan Al Zafir, currently a junior pursuing a Bachelor's degree in Mechanical Engineering at the University of Minnesota. My primary interests lie in robotics, automation, and the design and optimization of mechanical systems. I am passionate about leveraging advanced tools like CAD and simulation software to bring innovative ideas to life. I also enjoy exploring areas like control systems, dynamics, and manufacturing processes, constantly seeking opportunities to expand my technical expertise and problem-solving skills.</p>
+					<p>This website provides an overview of various work experiences, projects, and related activities that I have done since the start of my Bachelor's program.</p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Scroll down</a></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- One -->
+		<section id="one" class="wrapper style2 spotlights">
+			<section>
+				<a href="#" class="image"><img src="images/engine01.JPG" alt="" data-position="center center" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Yamaha R6 Engine Rebuild</h2>
+						<ul class="actions">
+							<li><a href="enginerebuild.html" class="button">Learn more</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#" class="image"><img src="images/evc02.png" alt="" data-position="top center" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Battery Cell Testing</h2>
+						<p>Cooling system Improvement</p>
+						<ul class="actions">
+							<li><a href="evtest.html" class="button">Learn more</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#" class="image"><img src="images/CF02.JPG" alt="" data-position="25% 25%" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Carbon Fiber Layup</h2>
+						<ul class="actions">
+							<li><a href="carbonfiber.html" class="button">Learn more</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#" class="image"><img src="images/A01.png" alt="" data-position="center center" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Accumulator Pressure Drop Test</h2>
+						<p>Advanced lightweight design with improved structural integrity.</p>
+						<ul class="actions">
+							<li><a href="accumulatorpressure.html" class="button">Learn more</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#" class="image"><img src="images/LF01.png" alt="" data-position="bottom center" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Line Following Robot</h2>
+						<p>Integration of sensors and AI for precise path following.</p>
+						<ul class="actions">
+							<li><a href="linefollower.html" class="button">Learn more</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</section>
+		
+
+		<!--Two-->
+		<section id="two" class="wrapper style2 fade-up" style="background-color: #270082;">
+			<div class="inner">
+				<!-- Centered Heading for Professional Experience -->
+				<h2 style="text-align: center; font-size: 2em;">Product Engineering Intern at Donaldson</h2>
+				
+				<p style="text-align: center; font-size: 1.2em;">During my time at Donaldson, my role as a Product Engineer intern often extended beyond its primary scope, as I worked extensively on design, simulation, and testing projects. One of my key contributions was redesigning a TITAN 250 to optimize airflow across the evaporator. This project allowed me to refine my CAD design skills and learn advanced techniques in Computational Fluid Dynamics (CFD), enhancing both my technical expertise and problem-solving capabilities.
+		
+					Additionally, I gained valuable hands-on experience by conducting tests on A325 bolts using a hydraulic shaker to perform shock testing. These responsibilities not only strengthened my technical skills but also provided me with practical exposure to industry-level design and testing workflows, further developing my ability to tackle complex engineering challenges.
+				</p>
+				
+				<!-- Image Section -->
+				<div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+					<img src="images/int01.png" alt="Internship Image 1" style="width: 30%; border-radius: 8px;">
+					<img src="images/int02.png" alt="Internship Image 2" style="width: 30%; border-radius: 8px;">
+					<img src="images/int03.png" alt="Internship Image 3" style="width: 30%; border-radius: 8px;">
+				</div>
+			</div>
+		</section>
+		
+		
+		
+		<!-- Three -->
+		<section id="three" class="wrapper style3 fade-up" style="background-color: #000080 ;">
+			<div class="inner">
+				<h2>Photography/Editing</h2>
+				<p>I enjoy capturing moments through photography during hikes and trips, and occasionally spend time editing photos to bring out their best features. Below are some of my favorite shots.</p>
+
+				<!-- Image Container with Flexbox -->
+				<div class="image-container">
+					<div class="image-item">
+						<img src="images/p01.JPEG" alt="Photography 1" />
+					</div>
+					<div class="image-item">
+						<img src="images/p04.JPG" alt="Photography 2" />
+					</div>
+					<div class="image-item">
+						<img src="images/p06.png" alt="Photography 3" />
+					</div>
+					<div class="image-item">
+						<img src="images/p02.JPG" alt="Photography 4" />
+					</div>
+					<div class="image-item">
+						<img src="images/p07.JPEG" alt="Photography 5" />
+					</div>
+					<div class="image-item">
+						<img src="images/p05.JPG" alt="Photography 6" />
+					</div>
+					<div class="image-item">
+						<img src="images/p03.JPEG" alt="Photography 2" />
+					</div>
+					<div class="image-item">
+						<img src="images/p08.JPG" alt="Photography 2" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Three -->
+		<section id="four" class="wrapper style1 fade-up">
+			<div class="inner">
+				<h2>Get in touch</h2>
+				<p>Thanks for visiting my portfolio!
+					If you have any questions, want to say hi, or just want to chat, feel free to send me a message. I'm always open to discussing new opportunities, ideas, or collaborations. You can reach me through the contact form, or find me on my social media links below. I look forward to hearing from you!</p>
+				<div class="split style1">
+					<section>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field half">
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="5"></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><a href="" class="button submit">Send Message</a></li>
+							</ul>
+						</form>
+					</section>
+					<section>
+						<ul class="contact">
+							<li>
+								<h3>Email</h3>
+								<a href="#">hasanalzafir@gmail.com</a>
+							</li>
+							<li>
+								<h3>Phone</h3>
+								<span>(240) 643 - 7601</span>
+							</li>
+							<li>
+								<h3>Social</h3>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.instagram.com/_hasan_al_zafir_/?next=%2F" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.linkedin.com/in/hasan-al-zafir-028308259/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+		</section>
+
+	
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
